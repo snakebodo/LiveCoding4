@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Exercitiu {
+public class ShowSameNrFrom2Lists {
     public static void main(String[] args) {
 
         ArrayList<Integer> nrs1 = new ArrayList<>();
@@ -15,7 +15,7 @@ public class Exercitiu {
         nrs2.add(4);
         nrs2.add(6);
 
-
-        System.out.println(nrs1 == nrs2);
+        nrs1.removeAll(nrs2);
+        System.out.println(nrs1);
     }
 }
