@@ -15,7 +15,16 @@ public class ShowSameNrFrom2Lists {
         nrs2.add(4);
         nrs2.add(6);
 
-        nrs1.removeAll(nrs2);
-        System.out.println(nrs1);
+        //vaianta1
+        //nrs1.removeAll(nrs2);
+        //System.out.println(nrs1);
+
+        // varianta2
+        for (Integer nr1 : nrs1) {
+            if (nrs2.contains(nrs1)) {
+                System.out.println(nr1);
+
+            }
+        }
     }
 }
