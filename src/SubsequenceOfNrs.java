@@ -1,7 +1,6 @@
 import java.util.ArrayList;
-import java.util.Scanner;
 
-public class Exercitiu {
+public class SubsequenceOfNrs {
     public static void main(String[] args) {
 
         ArrayList<Integer> nrs = new ArrayList<>();
